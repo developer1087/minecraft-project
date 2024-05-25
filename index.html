@@ -3,7 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <title>2D Minecraft Game</title>
   </head>
-  <body></body>
+  <body>
+    <!-- Landing Screen -->
+    <div class="main-container">
+      <div class="inner-container">
+        <ul class="instructions">
+          <li>Pick a Tool</li>
+          <li>Take the right tile for the tool</li>
+          <li>Place the tile back wherever you wish</li>
+        </ul>
+        <img
+          class="minecraft-logo"
+          src="./assets/images/Minecraft-Logo.png"
+          alt=""
+          width="300px"
+        />
+        <br />
+        <button class="start-game-btn">Start Game</button>
+      </div>
+    </div>
+
+    <!-- Game Screen -->
+    <div class="main-game-container hidden">
+      <div class="tools-bar-area">
+        <div class="tools">
+          <img src="./assets/images/shoffle.jpg" alt="" class="shovel" />
+          <img src="./assets/images/pickaxe.jpg" alt="" class="pickaxe" />
+          <img src="./assets/images/axe.jpg" alt="" class="axe" />
+          <img src="./assets/images/sword.png" alt="" class="sword" />
+        </div>
+        <img src="" alt="" class="inventory-box" />
+        <button class="reset-btn">Reset</button>
+      </div>
+      <div class="world-area"></div>
+      <div class="inventory-bar"></div>
+    </div>
+  </body>
 </html>

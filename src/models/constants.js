@@ -7,3 +7,4 @@ export const CLOUD_TILE = 'url(../assets/image/cloud.jpg)'
 export const LIGHT_SKY_TILE = 'url(../assets/image/light-sky.jpg)'
 export const LIGHT_TREE_TILE = 'url(../assets/image/light-tree.jpg)'
 export const TREE_TRUNK_TILE = 'url(../assets/image/tree-trunk.jpg)'
+

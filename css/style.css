@@ -1,9 +1,58 @@
 @font-face {
   font-family: 'minecraftFont';
-  src: url(../assets/fonts/minecraft_font.ttf);
+  src: url(../assets/fonts/minecraft_font.ttf) format('truetype');
+}
+
+* {
+  font-family: 'minecraft', Arial, sans-serif;
 }
 
 .main-container {
+  width: 100%;
+  height: 100vh;
+  background: url(../assets/images/landing-page-bg.jpg) no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* 
+.main-game-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hidden {
+  display: none;
+}
+
+.world-area {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.sky-tile, .dirt-tile {
+  width: 10%;
+  height: 10vh;
+}
+
+.sky-tile {
+  background: url(../assets/images/light-sky.jpg);
+}
+
+.dirt-tile {
+  background: url(../assets/images/dirt.jpg);
+} */
+
+ 
+/* .main-container {
   width: 100%;
   height: 100vh;
   background: url(../assets/images/landing-page-bg.jpg) no-repeat center center/cover;
@@ -26,6 +75,8 @@
 }
 
 .main-game-container {
+  width: 100%;
+  height: 100%;
   display: flex;
 }
 
@@ -37,4 +88,116 @@
 .tools {
   display: flex;
   flex-direction: column;
+}
+
+.hidden {
+  display: none;
+}
+
+.world-area {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background: red;
+}
+
+.row {
+  display: inline;
+  width: 100%;
+  height: 100%;
+}
+
+.sky-tile {
+  width: 100%;
+  height: 10vh;
+  background: url(../assets/images/light-sky.jpg);
+}
+
+.dirt-tile {
+  width: 100%;
+  height: 10vh;
+  background: url(../assets/images/dirt.jpg);
+} 
+
+.tree-tile {
+  width: 100%;
+  height: 10vh;
+  background: url(../assets/images/dark-tree.jpg);
+}
+
+.cloud-tile {
+  width: 100%;
+  height: 10vh;
+  background: url(../assets/images/cloud.jpg);
+}
+
+.rock-tile {
+  width: 100%;
+  height: 10vh;
+  background: url(../assets/images/rock.jpg);
+} */
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  background: url(../assets/images/landing-page-bg.jpg) no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-game-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.tools-bar-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.tools {
+  display: flex;
+  flex-direction: column;
+}
+.hidden {
+  display: none;
+}
+
+.world-area {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.sky-tile, .dirt-tile, .tree-tile, .cloud-tile, .rock-tile {
+  width: 5%; /* 100% / 20 */
+  height: 5vh; /* Adjust as necessary */
+}
+
+.sky-tile {
+  background: url(../assets/images/light-sky.jpg);
+}
+
+.dirt-tile {
+  background: url(../assets/images/dirt.jpg);
+}
+
+.tree-tile {
+  background: url(../assets/images/dark-tree.jpg);
+}
+
+.cloud-tile {
+  background: url(../assets/images/cloud.jpg);
+}
+
+.rock-tile {
+  background: url(../assets/images/rock.jpg);
 }
